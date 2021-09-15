@@ -1,0 +1,197 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background:linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)),url(./images/night.jpg)center/cover no-repeat fixed;
+    padding: 0;
+    margin: 0;
+}
+.container .img{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    
+}
+
+/*###########navbar##########*/
+.navbar{
+    background: burlywood;
+    padding: 5px;
+    margin: 10px 10;
+    font-size: 30px;
+    transition: all 2s ease;
+}
+a{
+    color: deeppink;
+    text-decoration: none;
+}
+.toggle-btn{
+    padding: 5px;
+    transition: all 1s ease;
+}
+.bar{
+    height: 3px;
+    width: 30px;
+    margin: 5px;
+    background: black;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px,-8px);
+}
+.item-contanire{
+    position: relative;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+
+/*### main ###*/
+
+section .container{
+    width: 800px;
+    padding: 20px;
+    font-size: 20px;
+    color: beige;
+}
+
+
+/*#### about us #####*/
+
+section .about{
+    background: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)),url(./images/back.jpg)center/cover no-repeat;
+    text-align: center;
+    color: beige;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 30px;
+}
+h3{
+    text-align: justify;
+    color: deeppink;
+}
+h3 strong{
+    font-size: 60px;
+}
+p{
+    text-align: center;
+    padding: 30px;
+}
+span{
+    color: deeppink;
+}
+
+/*#### contact #####*/
+
+section .contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.592),rgba(0, 0, 0, 0.592)),url(./images/cont.jpg)center/cover no-repeat;
+    height: 500px;
+    color: beige;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 30px 30px;
+
+}
+strong{
+    text-align: justify;
+}
+div .form{
+    color: deeppink;
+    font-size: 50px;
+    margin-top: 30px;
+    
+}
+.contact .form a{
+    text-decoration: underline !important;
+}
+
+.menulist h3{
+    padding: 0 15px;
+}
+strong{
+    text-align: justify;
+}
+
+
+
+/*### catagory ###*/
+section .container{
+    width: 100%;
+}
+section .card{
+    color: beige
+}
+
+/*##### footer ####*/
+section .footer{
+    color: beige;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:760px){
+
+    
+section .main{
+    font-size: 15px;
+    padding: 5px;
+}
+h1{
+    font-size: 20px;
+} 
+.navbar a{
+    font-size: 20px;
+}
+
+section .about{
+    font-size: 15px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+section .cotact{
+    font-size: 10px;
+    padding: 5px;
+}
+.contact a{
+    font-size: 30px;
+    padding: 5px;
+    word-spacing: 5px;
+}
+.contact h1{
+    font-size: 20px;
+}
+
+section strong{
+    text-align: center;
+}
+
+section .card{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+section .footer{
+    font-size: 20px;
+}
+
+
+}
+
